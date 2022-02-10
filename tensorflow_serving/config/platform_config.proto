@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package tensorflow.serving;
 option cc_enable_arenas = true;
-
+option go_package = "github.com/tensorflow/serving/tensorflow_serving/go/config/platform_config_go_proto";
 import "google/protobuf/any.proto";
 
 // Configuration for a servable platform e.g. tensorflow or other ML systems.

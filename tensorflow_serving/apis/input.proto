@@ -4,7 +4,7 @@
 syntax = "proto3";
 
 option cc_enable_arenas = true;
-
+option go_package = "github.com/tensorflow/serving/tensorflow_serving/go/apis/input_go_proto";
 import "tensorflow/core/example/example.proto";
 
 package tensorflow.serving;
